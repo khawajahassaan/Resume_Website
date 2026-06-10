@@ -581,6 +581,22 @@ footer {
 }
 
 @media (max-width: 768px) {
+    .profile-header {
+        padding: 20px;
+    }
+
+    .header-details {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 15px;
+    }
+
+    .social-actions {
+        width: 100%;
+        flex-wrap: wrap;
+        margin-top: 10px;
+    }
+
     .row {
         flex-direction: column;
         padding: 40px 20px;
