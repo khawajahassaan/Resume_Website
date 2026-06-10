@@ -579,3 +579,24 @@ footer {
     color: #6b7280;
     background: #ffffff;
 }
+
+@media (max-width: 768px) {
+    .row {
+        flex-direction: column;
+        padding: 40px 20px;
+        gap: 20px;
+    }
+    
+    .label, .content {
+        width: 100%;
+    }
+    
+    .portfolio-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .basic-timeline .timeline-header {
+        flex-direction: column;
+        gap: 5px;
+    }
+}
